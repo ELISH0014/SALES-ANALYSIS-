@@ -3,7 +3,11 @@
 ## Table  of content
 
 - [Project overview ](#project-overview)
+- [DATA-SOURCE](#data-source)
+- [Tools](#tools)
+- [Result](#result)
 - [Recommendations](#recommendations)
+- [Limitations](#limitations)
 
 ### Project Overview
 
@@ -81,7 +85,7 @@ The Analysis results are summarized as follows :
 3. Discount given is not based on the amount of  prior purchases made .
    
 
-   ### Recomendations
+   ### Recommendations
 
    - Invest in marketting and production of products in  category 'low'
    - Discount should be given should be proportional to numbers of previoius purchases .
