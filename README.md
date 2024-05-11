@@ -76,12 +76,15 @@ from train.`sql...`;
 ### Result 
 
 The Analysis results are summarized as follows :
-1. The bulk of the companys sale comes from the small category products 
+1. The bulk of the companys sale comes from the small category products .
 2. product category "low" is the best perfoming product in terms of sales .
+3. Discount given is not based on the amount of  prior purchases made .
+   
 
    ### Recomendations
 
-   - Invest in marketting and production of products in  category 'low
+   - Invest in marketting and production of products in  category 'low'
+   - Discount should be given should be proportional to numbers of previoius purchases .
   
 ### Limitations 
 
