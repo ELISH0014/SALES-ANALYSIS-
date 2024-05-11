@@ -34,6 +34,7 @@ In the initial data preparation phase , we performed the following Task:
 -  which product category yields greater income  generation higher income ?
 -  Is Customer query  being answered?
 -  If Product importance is high. having higest rating or being delivered on time ?
+-  Does the discount apply based on prior purchase ?
 
   ### Data Analysis 
 
@@ -43,6 +44,32 @@ In the initial data preparation phase , we performed the following Task:
  SELECT * from table 1
 where product form = 'medium';
 
+SELECT ID , Warehouse_block , Mode_of_Shipment , Customer_rating , Weight_in_gms  FROM  train.`sql...`
+WHERE Customer_rating ='5'
+ORDER BY Weight_in_gms DESC
+LIMIT 50;
+
+select Warehouse_block , max(Weight_in_gms) as maximum FROM  train.`sql...`
+ group by Warehouse_block
+ having max(Weight_in_gms);
+
+ select gender , max(Cost_of_the_Product) as MAXIMUM_EXPENDITURE FROM train.`sql...`
+ GROUP BY GENDER 
+ HAVING max(Cost_of_the_Product)
+ ORDER BY 2 DESC;
+
+ SELECT max(Prior_purchases) 
+from train.`sql...`;
+
+
+select  ID , Prior_purchases , max(Discount_offered) AS MAX_DISCOUNT
+FROM train.`sql...`
+GROUP BY  ID , Prior_purchases 
+HAVING MAX(Discount_offered) 
+order BY 3 DESC ;
+
+SELECT distinct (mode_of_shipment) as 'list of tansportation' 
+from train.`sql...`;
 
 ```
 
@@ -59,7 +86,7 @@ The Analysis results are summarized as follows :
 ### Limitations 
 
 - There was absence of cost of production
-- i had to remove all zero values 
+- I had to remove all zero values 
 
 
    
