@@ -88,7 +88,7 @@ The Analysis results are summarized as follows :
    ### Recommendations
 
    - Invest in marketting and production of products in  category 'low'
-   - Discount should be given should be proportional to numbers of previoius purchases .
+   - Discount given should be proportional to numbers of previoius purchases .
   
 ### Limitations 
 
