@@ -34,7 +34,7 @@ In the initial data preparation phase , we performed the following Task:
 
    
 ### Exploratory Data Analysis 
--  does the Total cost of Product  depend on mode of shipment ?
+-  Does the Total cost of Product  depend on mode of shipment ?
 -  which product category yields greater income  generation higher income ?
 -  Is Customer query  being answered?
 -  If Product importance is high. having higest rating or being delivered on time ?
@@ -90,7 +90,7 @@ The Analysis results are summarized as follows :
 1. The bulk of the companys sale comes from the small category products .
 2. product category "low" is the best perfoming product in terms of sales .
 3. Discount given is not based on the amount of  prior purchases made .
-4. 
+4. The importance of a product is not necessarily related to having the highest rating or being delivered on time .
    
 
    ### Recommendations
