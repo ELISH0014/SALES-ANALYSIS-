@@ -75,6 +75,13 @@ order BY 3 DESC ;
 SELECT distinct (mode_of_shipment) as 'list of tansportation' 
 from train.`sql...`;
 
+select * from train.`sql...`
+where Customer_care_calls > 3 AND Product_importance = 'high';
+
+select ID , Cost_of_the_Product , customer_care_calls , customer_rating from train.`sql...`
+where Customer_care_calls > 3 AND Customer_rating = 5
+order by Cost_of_the_Product desc;
+
 ```
 
 ### Result 
@@ -83,6 +90,7 @@ The Analysis results are summarized as follows :
 1. The bulk of the companys sale comes from the small category products .
 2. product category "low" is the best perfoming product in terms of sales .
 3. Discount given is not based on the amount of  prior purchases made .
+4. 
    
 
    ### Recommendations
